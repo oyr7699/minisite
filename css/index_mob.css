@@ -1,0 +1,95 @@
+/* div.hdrWrap>div.header{
+    height: 80px;
+}
+div.hdrWrap>div.header>div.logo{
+    width: calc(100% / 4 * 1.5);
+    margin-top: 20px;  
+    height: 40px;      
+}
+div.hdrWrap>div.header>ul.nav>li{
+    display: none;
+    line-height: 80px;
+    font-size: 30px;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-of-type(4){
+    display: block;
+} */
+div.mnWrap>div.main>div.noteView{
+    display: none;
+}
+div.mnWrap>div.imgView{
+    height: 280px;
+}
+div.mnWrap>div.imgView>div.imgGroup>div.image{
+    height: 280px;
+}
+div.mnWrap>div.main{
+    margin-top: -120px;
+    height: 120px;
+}
+div.mnWrap>div.main>div.titleView{
+    margin-left: calc(100% / 4 * 0.8);
+}
+div.mnWrap>div.main>ul.paging{
+    width: calc(100% / 4);
+    height: 80px;
+    margin-top: -75px;
+}
+div.mnWrap>div.main>ul.paging>li{
+    width: 10px;
+    height: 10px;
+    margin: 5px auto;
+}
+div.mnWrap>div.main>div.titleView>div.titleGroup>h2{
+    font-size: 20px;
+}
+div.cntWrap>div.content.cnt01>div.header>ul.menu{
+    display: none;
+}
+div.cntWrap>div.content>div.header>h2{
+    font-size: 25px;
+}
+div.cntWrap>div.content>div.section{
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artGroup{
+    width: 600%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artGroup>div.article{
+    height: 360px;
+    overflow: hidden;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    height: 360px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+    width: calc(100%);
+    margin: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article:nth-of-type(2){
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article:nth-of-type(2)~div.article{
+    display: none;
+}
+/* div.ftrWrap{
+    height: 200px;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+div.ftrWrap>div.footer>p{
+    display: none;
+}
+div.ftrWrap>div.footer>div.logo{
+    width: calc(100% / 4 * 2);
+    float: none;
+    margin: 0 auto;   
+}
+div.ftrWrap>div.footer>div.selector{
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+div.ftrWrap>div.footer>div.selector>div.sns{
+    text-align: center;
+} */

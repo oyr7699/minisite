@@ -1,0 +1,189 @@
+@import url('all.css');
+@import url('reset.css');
+@import url('common.css');
+
+/* 컨텐츠 공통영역 */
+div.cntWrap{
+    margin-top: 120px;
+}
+div.cntWrap div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap div.section{
+    margin-top: 80px;
+}
+div.cntWrap div.header h2{
+    font-size: 36px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+div.cntWrap div.header p{
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    width: calc(100% /12 * 4.1);
+    margin: 0 auto;
+}
+div.cntWrap div.section h3{
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: darkviolet;
+}
+div.cntWrap div.section h5{
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: orange;
+}
+div.cntWrap div.section p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* 컨텐츠1 */
+div.cnt01 div.section{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+div.cnt01 div.article{
+    display: flex;
+    align-items: center;
+}
+div.cnt01 div.article div.image.i1{
+    background-image: url('../image/제네시스/gv90.jpg');
+}
+div.cnt01 div.article div.image.i2{
+    background-image: url('../image/제네시스/gv80.png');
+}
+div.cnt01 div.article:nth-of-type(1){
+    direction: rtl;
+}
+div.cnt01 div.image{
+    width: calc(100% / 12 * 8);
+    height: 360px;
+    background-color: #fc0;
+    border-radius: 0 100px 100px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.cnt01 div.article:nth-of-type(2) div.image{
+    border-radius: 100px 0 0 100px;
+}
+div.cnt01 div.texts{
+    width: 50%;
+    padding: 40px calc(100% / 12);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin-left: calc(100% / 12 * -2);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 100px 0px 0px 100px;    
+}
+div.cnt01 div.article:nth-of-type(1) div.texts{
+    margin-left: 0;
+    margin-right: calc(100% / 12 * -2);
+}
+div.cnt01 div.article:nth-of-type(2) div.texts{
+    border-radius: 0px 100px 100px 0px;
+}
+div.cnt01 div.article div.sns{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+/* 컨텐츠2 */
+div.cnt02 div.article{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+div.cnt02 div.thumbImg{
+    width: 100%;
+    height: 440px;
+    position: relative;
+    background-image: url('../image/제네시스/g90_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s;
+}
+div.cnt02 div.texts{
+    width: 100%;
+    background-color: slategrey;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+}
+div.cnt02 div.thumbs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+div.cnt02 div.thumbs div.thImg{
+    width: calc(100% / 6 - 20px);
+    height: 80px;
+    color: transparent;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+div.cnt02 div.thumbs div.thImg.i1{
+    background-image: url('../image/제네시스/g90_2.jpg');
+}
+div.cnt02 div.thumbs div.thImg.i2{
+    background-image: url('../image/제네시스/옵션2.jpg');
+}
+div.cnt02 div.thumbs div.thImg.i3{
+    background-image: url('../image/제네시스/옵션3.jpg');
+}
+div.cnt02 div.thumbs div.thImg.i4{
+    background-image: url('../image/제네시스/옵션4.jpg');
+}
+div.cnt02 div.thumbs div.thImg.i5{
+    background-image: url('../image/제네시스/옵션5.jpg');
+}
+div.cnt02 div.thumbs div.thImg.i6{
+    background-image: url('../image/제네시스/옵션6.jpg');
+}
+
+/* 컨텐츠3 */
+div.cnt03 div.article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.cnt03 div.article div.image{
+    width: calc(100% / 12 * 8);    
+    background-color: #ccc;
+    direction: rtl;
+}
+div.cnt03 div.article div.image div.ovrGrid{
+    background-color: #fc0;
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
+    height: 400px;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.cnt03 div.article div.image div.ovrGrid{
+    background-image: url('../image/제네시스/제네시스\ 콘셉트카.png');
+}
+div.cnt03 div.article div.texts{
+    width: calc(100% / 12 * 4 - 20px);
+    text-align: center;
+}
+div.cnt03 div.article div.texts p{
+    height: 120px;
+    overflow: hidden;
+}

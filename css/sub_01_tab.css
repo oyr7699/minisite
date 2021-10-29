@@ -1,0 +1,24 @@
+div.cntWrap div.content{
+    width: 90%;
+}
+div.cnt01 div.article div.image{
+    width: 100%;
+}
+div.cnt01 div.texts{
+    width: calc(100% / 8 * 6);
+}
+div.cnt01 div.article:nth-of-type(1) div.texts{
+    margin-right: calc(100% / 8 * -6);
+}
+div.cnt01 div.article:nth-of-type(2) div.texts{
+    margin-left: calc(100% / 8 * -6);
+}
+div.cnt02 div.thumbs div.thImg:nth-of-type(4)~div{
+    display: none;
+}
+div.cnt02 div.thumbs div.thImg{
+    width: calc(100% /4 - 20px);
+}
+div.cntWrap03{
+    display: none;
+}
